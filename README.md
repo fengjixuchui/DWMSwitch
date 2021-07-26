@@ -1,6 +1,9 @@
 # DWMSwitch
 Easy DWM switcher without Winlogon suspension
 
+**Warning: DO NOT use this in Windows 11. Killing DWM in there will make the mouse completely unusable. Currently no fix is known.**
+If you disabled DWM in Windows 11, just press Win+R, type `dwmctl start`, then press enter.
+
 ## Manual installation
 1. Build all the four projects with Visual Studio (2019 recommended), or download the prebuilt binaries from the releases.
 2. Make a directory C:\Windows\System32\DWM and C:\Program Files\Ingan121\DWMSwitch. (These paths are currently hardcoded.)
